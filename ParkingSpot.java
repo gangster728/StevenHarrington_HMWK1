@@ -1,7 +1,7 @@
 public class ParkingSpot {
-    Car x = new Car("","",null);
-    Boolean handicap;
-    public ParkingSpot(Boolean handicap){
+    Car occupiedcar = new Car();
+    boolean handicap;
+    public ParkingSpot(boolean handicap){
         this.handicap = handicap;
 
     }
